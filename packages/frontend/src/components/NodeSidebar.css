@@ -1,0 +1,45 @@
+.node-sidebar {
+  width: 250px;
+  background: white;
+  border-right: 1px solid #ddd;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.node-sidebar h2 {
+  margin: 0 0 1rem 0;
+  color: #1a1a2e;
+  font-size: 1.25rem;
+}
+
+.node-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.node-item {
+  background: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.node-item:hover {
+  border-color: #4CAF50;
+  background: #f0f8f0;
+  transform: translateX(4px);
+}
+
+.node-label {
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.25rem;
+}
+
+.node-description {
+  font-size: 0.875rem;
+  color: #666;
+}
