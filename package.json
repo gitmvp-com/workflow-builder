@@ -1,0 +1,25 @@
+{
+  "name": "workflow-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple visual workflow automation tool - MVP inspired by n8n",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "build": "pnpm -r build",
+    "start": "pnpm --filter backend start"
+  },
+  "keywords": [
+    "workflow",
+    "automation",
+    "no-code",
+    "workflow-engine"
+  ],
+  "license": "MIT"
+}
