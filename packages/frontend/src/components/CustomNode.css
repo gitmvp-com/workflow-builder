@@ -1,0 +1,32 @@
+.custom-node {
+  background: white;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-node:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.node-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.node-header {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.node-detail {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.node-detail small {
+  word-break: break-all;
+}
